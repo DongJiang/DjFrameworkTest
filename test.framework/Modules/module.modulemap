@@ -1,0 +1,11 @@
+framework module VimaiNavigationFramework {
+  umbrella header "VimaiNavigationFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module VimaiNavigationFramework.Swift {
+    header "VimaiNavigationFramework-Swift.h"
+    requires objc
+}
