@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DjFrameworkTest/Wrapper.h>
 
 //! Project version number for DjFrameworkTest.
 FOUNDATION_EXPORT double DjFrameworkTestVersionNumber;
