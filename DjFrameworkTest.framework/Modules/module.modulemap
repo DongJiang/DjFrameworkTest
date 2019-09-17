@@ -1,11 +1,11 @@
-framework module DjFrameworkTest {
-  umbrella header "DjFrameworkTest.h"
+framework module framework2 {
+  umbrella header "framework2.h"
 
   export *
   module * { export * }
 }
 
-module DjFrameworkTest.Swift {
-    header "DjFrameworkTest-Swift.h"
+module framework2.Swift {
+    header "framework2-Swift.h"
     requires objc
 }
